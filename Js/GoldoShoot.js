@@ -1,5 +1,4 @@
-// sur les tableaux
-// https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array
+// Premier commentaire de test avec GitHub
 AppViewModel = {
 	canvasize:
 	{
