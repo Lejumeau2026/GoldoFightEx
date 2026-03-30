@@ -66,13 +66,14 @@ KeyEnum = {
 };
 
 
-
+// Shadow displacement and factor
 shadow = {
 	dx: 20,
 	dy: 20,
 	factor: 1.02,
 };
 
+// Some Globales variables 
 var gameStartTime = Date.now();
 var gameTime = 0;
 var modelGoldo = null;
@@ -116,11 +117,13 @@ var BackImageCentre = null;
 
 
 
+// ------------------------------------------------------------------------------------------------
+// Document JQuery Main entry
+// ------------------------------------------------------------------------------------------------
 $(document).ready(function () {
 
 
-Object.defineProperty(console, '_commandLineAPI',
-   { get : function() { throw 'Nooo!' } })
+	Object.defineProperty(console, '_commandLineAPI', { get : function() { throw 'Nooo!' } })
    
    
 	$('#idMsgboxLoading').show();
@@ -205,9 +208,6 @@ Object.defineProperty(console, '_commandLineAPI',
 		AppViewModel.playIntro = $(this).is(':checked');
 	});
 
-
-
-
 	$("#StartTraining").click(function () {
 
 		StartGame(0);
@@ -220,6 +220,8 @@ Object.defineProperty(console, '_commandLineAPI',
 		StartGame(activity);
 	});
 
+
+	// The game start here
 	function StartGame(activity) {
 
 		$('#idMsgboxStartGame').hide();
@@ -414,7 +416,6 @@ function LoadScoreListe() {
 			ScoreSortType: $('#ScoreSortType').val()
 		});
 }
-
 
 
 function ContinuousFire() {
