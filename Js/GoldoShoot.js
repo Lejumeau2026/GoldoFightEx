@@ -1,4 +1,3 @@
-// Premier commentaire de test avec GitHub
 AppViewModel = {
 	canvasize:
 	{
@@ -56,14 +55,14 @@ AppViewModel = {
 
 
 KeyEnum = {
-	Esc: 27,
-	Pause: 80,
-	Ctrl: 17,
-	Space: 32,
-	A: 65,	// Touche magique du tir continue
-	X: 88,
-	Coma:188,
-	Semicolon:190
+	Esc: 27,		// Touche Escape pour sortir de certaines séquences de jeu
+	Pause: 80,		// Mettre le jeu en pause
+	Ctrl: 17,		// Tir des planitroncs pour droitier
+	Space: 32,		// Tir des cornofulgures
+	A: 65,			// Touche magique du tir continue
+	X: 88,			// Tir du fulguropoing pour droitier
+	Coma: 188,		// Tir du fulguropoing pour gaucher via la touche virgule
+	Semicolon: 190	// Tir du fulguropoing pour droitier via la touche point-virgule
 };
 
 
