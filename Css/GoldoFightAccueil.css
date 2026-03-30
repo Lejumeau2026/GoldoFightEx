@@ -1,0 +1,215 @@
+body {
+	background-color: #111111;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: hidden;
+	background-image: url("../Images/CoverAccueil.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Comic Sans MS;
+}
+
+hr {
+  border-top: 1px solid rgba(255, 255, 255, .6);
+  border-bottom: 1px solid rgba(100, 100, 100, .6);
+}
+
+.GoldoFightTitle {
+
+	text-align: center;
+	font-size:38px;
+}
+
+.GuiInput {
+	margin: 2px;
+	border-radius: 5px;
+	min-width: 200px;
+	min-height: 25px;
+}
+
+.BtnAction {
+	border-radius: 5px;
+	min-height: 30px;
+	min-width: 200px;
+	color:#FFFFFF;
+	background-image: url("../Images/BackSpace01.jpg");
+}
+
+.GuiLabel {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+	min-width: 130px;
+	color: #FFFFFF;
+	margin: 2px 10px 2px 5px;
+	font: italic
+}
+
+.GuiError,
+.GuiErrorCnx,
+.GuiErrorLost {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	min-width: 100px;
+	color: #FF0000;
+	margin: 2px 10px 2px 5px;
+	font: italic;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+	width: 95%;
+}
+
+
+
+.GuiUserInfo {
+	background-color: rgba(200, 0, 0, 0.4);
+	width: 400px;
+	margin: 10px auto 10px auto;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.ButtonMenu {
+	cursor: pointer;
+	min-height: 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	// background-color: rgba(50,50,50, 0.6);
+	color: #EFEFEF;
+	width: 75%;
+	align: center;
+	margin: 5px auto 5px auto;
+	height: 40px;
+	font-family: Comic Sans MS;
+	border-color: #EEEEEE #999999;
+	background-image: url("../Images/BackSpace01.jpg");
+}
+
+.ButtonMenu:hover{
+	// background-color: rgba(255 ,50 ,50 , 0.6);
+	background-image: linear-gradient(to right, rgba(100,100,200, 0.6), rgba(0, 0, 0, 0)), url("../Images/BackSpace01.jpg");
+}
+
+
+#IdDivCreate,
+#IdDivConnect,
+#IdDivLost {
+	display: none
+}
+
+		.GuiMenuDiv {
+			top: 0xp;
+			left: 0px;
+			position: absolute;
+			background-color: rgba(0, 0, 0, 0.3);
+			box-shadow: 5px 5px 15px #000;
+			width: 28%;
+			height: 100%;
+			border-radius: 5px;
+			color: #FFF;
+			overflow: hidden;
+		}
+
+		.GuiInfoDiv {
+			position: absolute;
+			top: 0xp;
+			left: 30%;
+			background-color: rgba(0, 0, 0, 0.4);
+			box-shadow: 5px 5px 25px #000;
+			width: 70%;
+			height: 100%;
+			border-radius: 5px;
+			color: #FFF;
+			overflow: auto;
+		}
+		
+		.GuiMsgDiv {
+			background-color: rgba(0, 0, 0, 0.3);
+			width: 100%;
+			border-radius: 5px;
+			color: #FFF;
+			overflow: hidden;
+			margin:0px auto 0px auto;
+		}		
+
+		.ImgBtnMenu {
+			vertical-align: middle;
+			height: 36px;
+		}
+
+		.DivBarre {
+			cursor: pointer;
+			background-image: url("../Images/BackSpace01.jpg");
+			border-radius: 10px;
+			width:60%;
+			margin:10px auto 10px auto;
+				box-shadow: 5px 5px 20px #000;
+
+		}
+
+		.DivBarre:hover {
+			background-image: linear-gradient(to right, rgba(100,100,200, 0.4), rgba(0, 0, 0, 0)), url("../Images/BackSpace01.jpg");
+		}
+		
+		.DivBarre h2 {
+			margin:0px auto 0px auto;
+		}
+		
+		.DivScore {
+			display:none;
+			width:70%;
+			margin:0px auto 0px auto;
+			background-color: rgba(0, 0, 0, 0.4);
+			border-radius:10px;
+		}
+		
+		.GoldoBuste {
+			vertical-align:middle;
+			margin:5px auto 5px auto;
+			display:block;
+		}
+		
+		.HeadGoldo3DImg {
+			vertical-align:middle;
+			margin:5px 20px 5px 10px;
+		}
+
+		.ScreenshotImg {
+			margin:5px auto 5px auto;
+			width:80%;
+			text-align:center;
+		}
+
+
+		.TableScore {
+			margin: 0px auto 0px auto;
+			font-size:12px;
+		}
+
+		.TableScore td {
+			padding: 5px;
+			font-size:18px;
+		}
+
+		.TableScore th {
+			padding: 10px;
+			background-color: rgba(200, 0, 0, 0.5);
+			font-size:20px;
+		}
+
+		.TableScore caption {
+			font-size:20px;
+		}
+
+		.ReturnMainPageBtn,.BtnUpdate {
+			padding: 10px;
+			border: 1px outset buttonborder;
+			border-radius: 5px;
+			color: buttontext;
+			background-color: buttonface;
+			text-decoration: none;
+			color:#FFFFFF;
+			background-image: linear-gradient(to right, rgba(100,100,200, 0.6), rgba(0, 0, 0, 0)), url("../Images/BackSpace01.jpg");
+		}		
+
